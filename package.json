@@ -1,0 +1,21 @@
+{
+  "name": "proshow-producer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run getlink && npm run getcontent && npm run download",
+    "getlink": "node index.js",
+    "getcontent": "node content.js",
+    "download": "node download.js"
+  },
+  "keywords": [],
+  "author": "tanmv",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "googleapis": "^39.2.0",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.2.2"
+  }
+}
