@@ -13,7 +13,7 @@
   "author": "tanmv",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "googleapis": "^39.2.0",
     "jquery": "^3.5.1",
     "jsdom": "^16.2.2"
